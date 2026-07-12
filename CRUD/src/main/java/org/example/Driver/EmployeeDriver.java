@@ -13,6 +13,7 @@ public class EmployeeDriver {
         Dbutil1.connecToDb();
         do{
             System.out.println("1.insert\n2.Delete\n3.Update\n4.DisplayAll\n5.GetByid");
+            System.out.println("Enter your choice");
             choice=sc.nextInt();
             switch (choice){
                 case 1:
