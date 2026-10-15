@@ -5,6 +5,7 @@ import org.example.Entity.Student;
 
 import java.sql.*;
 
+
 public class Dbutil {
     private static String url = "jdbc:mysql://localhost:3306/student";
     private static String user = "root";
