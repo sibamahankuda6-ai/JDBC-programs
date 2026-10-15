@@ -19,6 +19,7 @@ public class Dbutil1 {
         }
 
     }
+    
     public int insert(Employee employee){
         String sql = "insert into employee values(?,?,?)";
         try {
