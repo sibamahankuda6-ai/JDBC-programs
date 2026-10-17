@@ -10,6 +10,7 @@ public class Employee {
         this.employee_name = employee_name;
         this.employee_salary = employee_salary;
     }
+    
     public Employee() {
     }
 
